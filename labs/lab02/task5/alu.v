@@ -16,7 +16,7 @@ module alu (
   input       [3:0] a,
   input      [3:0] b,
   input             op,      // 0 = add, 1 = sub
-  output reg [3:0] result
+  output reg [3:0]  result
 );
 
   reg [3:0] b_inv;
